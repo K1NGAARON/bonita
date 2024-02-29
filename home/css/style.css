@@ -1,0 +1,112 @@
+.banner {
+    justify-content: center;
+    height: 90vh;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .overlay {
+    opacity: 0.6;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.banner.section .row.flex-col.center {
+    gap: 0;
+}
+
+.banner h1,
+.banner p {
+    text-align: left;
+    width: 60%;
+}
+
+.banner .btn-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner .btn-wrapper a {
+    color: var(--white);
+}
+
+.services .width-40 {
+    width: 40%;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.services-wrapper .item {
+    flex: 1 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    opacity: 0.4;
+    transition: var(--transition);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
+    }
+
+    .banner h1,
+    .banner p {
+        width: 100%;
+    }
+
+    .banner .btn-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-wrapper {
+        padding: 0;
+    }
+
+    .services .width-40 {
+        width: 100%;
+    }
+}

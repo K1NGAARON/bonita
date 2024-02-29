@@ -1,50 +1,14 @@
 .header {
     background-color: transparent;
     min-height: unset;
-    position: absolute;
     z-index: 99;
     transition: background-color 200ms linear;
-}
-
-.topbar {
-    display: none;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--primary);
 }
 
 .header .button-wrapper {
     display: flex;
     gap: 10px;
     align-items: center;
-    font-size: 14px;
-}
-
-.topbar.active {
-    display: flex;
-}
-
-.topbar .wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    width: fit-content;
-}
-
-.topbar .wrapper p {
-    color: var(--white);
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.topbar .wrapper .btn {
-    color: var(--primary);
-    background-color: var(--white);
     font-size: 14px;
 }
 
@@ -63,12 +27,6 @@
     color: var(--black);
 }
 
-.header.active .btn {
-    color: var(--white);
-    background-color: var(--primary);
-    border-color: var(--primary);
-}
-
 .header .row {
     width: 100%;
     min-height: unset;
@@ -81,7 +39,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 75px;
+    width: 150px;
 }
 
 .header .nav-logo {
@@ -102,9 +60,10 @@
 }
 
 .header .container .nav {
-    color: var(--white);
+    color: var(--black);
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
+    text-transform: uppercase;
     text-decoration: none;
     opacity: 1;
     transition: var(--transition);
@@ -130,16 +89,6 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
-
-.header .label {
-    color: var(--white);
-    font-size: 14px;
-    font-weight: 700;
-    background-color: var(--primary);
-    padding: 5px 10px;
-    margin-left: 5px;
-    border-radius: var(--borderRadius);
 }
 
 .socials-wrapper .icon i {
@@ -183,13 +132,13 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--white);
+    background-color: var(--black);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
 
 .header .nav::before {
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
 .header.active .nav::before {
@@ -203,7 +152,7 @@
 .footer {
     min-height: unset;
     color: var(--white);
-    background-color: #000000;
+    background-color: var(--primary);
 }
 
 .footer .row {
@@ -264,15 +213,11 @@
 
 .made-by a:hover {
     opacity: 1;
+    color: var(--white);
     transition: var(--transition);
 }
 
 @media (max-width: 1420px) {
-    .topbar,
-    .topbar.active {
-        display: none;
-    }
-
     .header .row {
         display: none;
     }

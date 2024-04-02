@@ -37,6 +37,14 @@
     background-color: transparent;
 }
 
+.header .container .nav.language-toggle {
+    opacity: 0.6;
+}
+
+.header .container .nav.language-toggle.active {
+    opacity: 1;
+}
+
 .header .logo,
 .footer .logo {
     width: 100px;

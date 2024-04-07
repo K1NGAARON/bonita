@@ -142,6 +142,16 @@ img.rounded-corners {
     transition: var(--transition); 
 }
 
+.btn.full {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn.full:hover {
+    background-color: var(--primary);
+}
+
 .btn:hover {
     cursor: pointer;
     transform: scale(1.05);

@@ -62,6 +62,11 @@ p.subheadline {
     text-transform: uppercase;
 }
 
+ol,
+ul {
+    margin-left: 30px;
+}
+
 img {
     width: 100%;
     height: auto;

@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.banner .overlay {
+    opacity: 0.6;
+}
+
 .banner .row {
     color: var(--white);
     z-index: 10;
@@ -150,6 +154,26 @@
 
 .image-wrapper .item:hover .content {
     display: flex;
+}
+
+.rooms-wrapper .item {
+    background-color: var(--white);
+    border-radius: var(--borderRadius);
+}
+
+.rooms-wrapper .item img {
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
+}
+
+.rooms-wrapper .item .content {
+    padding: 20px;
+}
+
+.rooms-wrapper .item h3 {
+    color: var(--primaryw);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 560px) {

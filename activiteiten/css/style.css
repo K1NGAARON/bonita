@@ -23,3 +23,12 @@
     border-top-right-radius: var(--borderRadius);
     border-top-left-radius: var(--borderRadius);
 }
+
+.activities-wrapper .item .content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.activities-wrapper .item .content a {
+    margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+.activities-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.activities-wrapper .item {
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+}
+
+.activities-wrapper .item .content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.activities-wrapper .item img {
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
+}

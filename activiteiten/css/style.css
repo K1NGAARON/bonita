@@ -6,7 +6,7 @@
 }
 
 .activities-wrapper .item {
-    flex: 1 0 20%;
+    flex: 0 1 20%;
     display: flex;
     flex-direction: column;
     border-radius: var(--borderRadius);
@@ -31,4 +31,10 @@
 
 .activities-wrapper .item .content a {
     margin-top: 20px;
+}
+
+@media (max-width: 560px) {
+    .activities-wrapper .item {
+        flex: 1 0 100%;
+    }
 }

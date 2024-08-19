@@ -171,9 +171,9 @@
 }
 
 .rooms-wrapper .item h3 {
-    color: var(--primaryw);
+    color: var(--primary);
     font-size: 20px;
-    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 560px) {

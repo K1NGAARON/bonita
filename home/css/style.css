@@ -159,6 +159,18 @@
 .rooms-wrapper .item {
     background-color: var(--white);
     border-radius: var(--borderRadius);
+    transition: var(--transition);
+}
+
+.rooms-wrapper .item:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.rooms-wrapper .item:hover h3 {
+    color: var(--white);
+    transition: var(--transition);
 }
 
 .rooms-wrapper .item img {

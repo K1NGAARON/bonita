@@ -1,6 +1,32 @@
+.banner.section {
+    justify-content: center;
+    height: 50vh;
+    min-height: 50vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner.section,
+.banner.section .row {
+    min-height: 50vh;
+}
+
+.banner .overlay {
+    opacity: 0.6;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
 .activities-wrapper {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     gap: 40px;
     margin-top: 20px;
 }
@@ -11,6 +37,18 @@
     flex-direction: column;
     border-radius: var(--borderRadius);
     background-color: var(--white);
+    transition: var(--transition);
+}
+
+.activities-wrapper .item:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.activities-wrapper .item:hover a {
+    color: var(--white);
+    transition: var(--transition);
 }
 
 .activities-wrapper .item .content {

@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 :root {
     --primary: #FFC632;
     --white: #fff;
     --light-grey: #ECECEC;
     --black: #1C1C1C;
+    --heading-font: 'Alata';
+    --body-font: 'Montserrat';
     --boxShadow: 0px 3px 6px #00000029;
     --borderRadius: 26px;
     --overlay: var(--black);
@@ -18,11 +21,21 @@ html {
 
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: var(--body-font), sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    font-weight: 400;
 }
 
 h1,
@@ -142,6 +155,13 @@ img.rounded-corners {
     transition: var(--transition); 
 }
 
+.btn:hover {
+    transform: unset;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    transition: var(--transition);
+}
+
 .btn.full {
     color: var(--white);
     background-color: var(--primary);
@@ -154,10 +174,11 @@ img.rounded-corners {
 
 .btn:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    transition: var(--transition);
     color: var(--white);
-    background-color: var(--black);
+    border-color: var(--primary);
+    background-color: var(--primary);
+    transition: var(--transition);
+    transform: unset;
 }
 
 .wrapper {

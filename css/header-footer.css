@@ -176,9 +176,10 @@
 }
 
 .footer .row {
+    max-width: 1000px;
     min-height: unset;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 30px auto;
     padding: 0 30px;
 }

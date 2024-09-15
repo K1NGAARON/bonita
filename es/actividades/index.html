@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
     <link rel="stylesheet" href="/contact/css/style.css">
+
+    <link rel="stylesheet" href="/activiteiten/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
@@ -122,7 +124,7 @@
 </header>
 
 <div class="section banner">
-    <div class="row flex-col">
+    <div class="row animate flex-col">
         <h1>
             Descubre las actividades en Moraira
         </h1>
@@ -130,59 +132,568 @@
     <div class="overlay"></div>
 </div>
 
-<div class="section">
-    <div class="row animate">
-        <div class="col">
-            <img src="/home/img/placeholder-img.jpg" alt="">
-        </div>
-        <div class="col">
-            <h2>
-                Activiteit 1
-            </h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vero facilis porro earum magni iusto molestias voluptatum totam harum facere.
-            </p>
-            <a href="" class="btn" target="_blank">
-                Meer informatie
-            </a>
+<div class="section grey">
+    <div class="row flex-col center animate">
+        <h2>
+            Actividades
+        </h2>
+        <div class="wrapper activities-wrapper" id="activities">
+            <div class="item">
+                <img src="/activiteiten/img/Golfen.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Golf
+                    </h3>
+                    <p>
+                        El golf es un deporte muy popular en la Costa Blanca. Alrededor de Moraira encontrará varios campos de golf. Tanto si elige 9 o 18 hoyos, con o sin vistas al mar, las posibilidades son infinitas. Los campos más cercanos son Club de Golf Ifach, Club de Golf Jávea y Club de Golf Altea. 
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Padellen.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Padelles
+                    </h3>
+                    <p>
+                        En el centro de Moraira encontrará varias pistas de pádel. Este popular deporte es ideal tanto para principiantes como para jugadores avanzados. ¡Ven a disfrutar de una experiencia activa y divertida durante tus vacaciones en La Bonita!
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Fietsen.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Ciclismo
+                    </h3>
+                    <p>
+                        Moraira es un paraíso para los ciclistas. Con sus hermosas rutas a lo largo de la costa y a través del interior montañoso, ofrece algo para todos. Hay bicicletas de alquiler en varios lugares de Moraira.
+                    </p>
+                    <a href="https://www.morairaebikes.com/nl/home" target="_blank">
+                        Moraira eBikes
+                    </a>
+                    <a href="https://www.morairacycling.com/nl/" target="_blank">
+                        Moraira cycling
+                    </a>
+                    <a href="https://www.viator.com/nl-NL/tours/Benidorm/electric-bicycles-mobility-scooters/d31484-277036P2" target="_blank">
+                        Viator
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Duiken.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Buceo
+                    </h3>
+                    <p>
+                        ¡Descubre el mundo submarino en la Costa Blanca! Hay más de 25 puntos de buceo para explorar en Moraira, Jávea, Benitachell y Calpe. Tanto si eres un principiante como un buceador experimentado, hay varias escuelas de buceo cerca para guiar tu aventura.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/boot.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Navegación
+                    </h3>
+                    <p>
+                        Navegar por la costa de Moraira es una experiencia inolvidable. Explore el litoral, descubra calas escondidas y disfrute de un relajante día en el agua. Para pasar un día en el mar, puede alquilar fácilmente un barco en las empresas locales de alquiler.
+                    </p>
+                    <a href="https://morairaboatsadventures.com/" target="_blank">
+                        Moraira boats adventures
+                    </a>
+                    <a href="https://www.nauticamengual.com/es/alquiler-de-barcos" target="_blank">
+                        Nautica mengual
+                    </a>
+                    <a href="https://www.clickandboat.com/nl/boot-huren/zoeken?where=Moraira,%20Spanje&DateDebut=&DateFin=&ProduitTypeId=&_tri=Selection&TypeNavigation=With%20or%20without%20captain&_page=1&cmp=boat&utm_source=google&utm_medium=cpc&utm_lang=en&utm_campaign=1666110375&utm_adgroup=141436356875&utm_keyword=bootverhuur%20moraira&utm_matchtype=e&utm_device=m&utm_position=&utm_location=&gad_source=1&gbraid=0AAAAADex6sAuAjO9hqQZ6kA2v012IYEPX" target="_blank">
+                        Click and boat
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/jetski.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Moto acuática
+                    </h3>
+                    <p>
+                        Experimente una descarga de adrenalina en el Mediterráneo con una emocionante excursión en moto acuática. Explore la hermosa costa y las cuevas escondidas mientras se desliza sobre el agua. Las empresas locales de alquiler de motos acuáticas ofrecen excursiones guiadas y alquileres, ideales tanto para principiantes como para entusiastas experimentados de los deportes acuáticos.
+                    </p>
+                    <a href="https://www.manawa.com/en-GB/search-by-sport-and-spot/water/jet-skiing/javea/122-1178-3146?_cid=32" target="_blank">
+                        Manawa
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Kajakken.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Kayak
+                    </h3>
+                    <p>
+                        Explora la hermosa costa de La Cala de la Granadella, situada en la parte más meridional de Jávea. Con un kayak, podrá remar a lo largo de la impresionante costa, navegar por pintorescas calas escondidas e incluso explorar misteriosas cuevas marinas.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/barcos-cosas.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Escuela de vela y centro de deportes náuticos
+                    </h3>
+                    <p>
+                        Explora las oportunidades de practicar deportes acuáticos en Moraira con clases en la escuela de vela local, perfecta tanto para principiantes como para navegantes experimentados. También puede alquilar un SUP o un kayak en el centro de deportes acuáticos para explorar la costa a su propio ritmo y disfrutar del hermoso entorno.
+                    </p>
+                    <a href="https://www.barcosycosas.com/pa-centro-vela-remo-247-4896-es.html" target="_blank">
+                        Barcos & Cosas
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Karting.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Karting
+                    </h3>
+                    <p>
+                        ¡Experimenta la emoción del karting en AV-Karting en Moraira! Aquí encontrará diferentes karts con diferentes velocidades, incluyendo karts dúo para un paseo aventurero juntos. Ideal para un día de diversión y aventura durante su estancia en La Bonita.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Playa de L’Ampollo - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Playa de L'Ampollo - Moraira
+                    </h3>
+                    <p>
+                        Playa de L'Ampolla es una hermosa playa en Moraira, conocida por sus aguas cristalinas y arena fina. La playa es ideal para familias y hay un agradable chiringuito donde también se pueden alquilar hamacas y sombrillas. Hay aparcamiento disponible junto a la playa para su coche.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Playa De El Portet - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Playa De El Portet - Moraira
+                    </h3>
+                    <p>
+                        Playa de El Portet es una pequeña cala con una hermosa playa de arena, situada en la encantadora Moraira. Con sus aguas tranquilas y sus impresionantes vistas, este idílico lugar es perfecto para pasar un relajante día junto al mar.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Wijnvelden - LLiber.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Viñedos - LLiber
+                    </h3>
+                    <p>
+                        Visita los viñedos de Pepe Mendoza Casa Agrícola en Llíber, donde la pasión por la elaboración del vino cobra vida. Este idílico lugar en el Valle del Jalón, cerca de Moraira, ofrece una experiencia inolvidable para los amantes del vino.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Cala del Moraig - Benitachell.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Cala del Moraig - Benitachell
+                    </h3>
+                    <p>
+                        La Cala del Moraig, situada en Benitachell, cerca de Moraira, es una impresionante cala rodeada de impresionantes acantilados. Este paraíso escondido ofrece aguas cristalinas, ideales para practicar snorkel y buceo. Desde la roca Cova dels Arcs, podrá descubrir un río subterráneo mientras bucea.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Playa Arenal  - Javea.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Playa Arenal - Javea
+                    </h3>
+                    <p>
+                        Playa Arenal en Jávea, cerca de Moraira, es una hermosa playa de arena perfecta para un día de relax junto al mar. Con su arena suave y aguas tranquilas y poco profundas, es ideal para familias y bañistas. A lo largo del animado paseo marítimo encontrará varios cafés, restaurantes y tiendas locales.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Cap de Sant Antoni - Javea.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Cap de Sant Antoni - Javea
+                    </h3>
+                    <p>
+                        Cap de Sant Antoni en Jávea, cerca de Moraira, ofrece impresionantes vistas del mar Mediterráneo. Esta reserva natural es perfecta para excursionistas y amantes de la naturaleza, con hermosos acantilados, varias rutas de senderismo y una rica flora y fauna. Desde el faro se tienen espectaculares vistas panorámicas de la costa.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Los Molinos de la Plana de Javea.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Los Molinos de la Plana de Javea
+                    </h3>
+                    <p>
+                        Descubra la ruta de senderismo Los Molinos de la Plana de Jávea, una joya histórica de la belleza natural de la Costa Blanca. Esta ruta te lleva junto a antiguos molinos de viento y ofrece impresionantes vistas del Mediterráneo y el paisaje circundante.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Wandelpad – Benissa_Calpe.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Ruta de senderismo - Benissa/Calpe
+                    </h3>
+                    <p>
+                        El sendero costero entre Benissa y Calpe, también conocido como Paseo Ecológico, es un verdadero paraíso para los amantes del senderismo. Esta ruta ofrece impresionantes vistas del mar Mediterráneo y de la escarpada costa con playas y calas.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Playa de la fustera - Benissa.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Playa de la fustera - Benissa
+                    </h3>
+                    <p>
+                        Playa de la Fustera en Benissa, cerca de Moraira, es una encantadora playa de arena en una pequeña bahía rodeada de exuberante naturaleza. Esta idílica playa ofrece aguas cristalinas, ideales para nadar y bucear. Puede pasear por esta hermosa bahía a través del sendero.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Oud-Altea.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Antigua Altea
+                    </h3>
+                    <p>
+                        Altea la Vieja, situada cerca de Moraira, es un pueblo auténtico lleno de encanto e historia. Pasee por las estrechas calles empedradas, admire las casas encaladas y disfrute de las hermosas vistas sobre el mar Mediterráneo. Visite la emblemática iglesia de la Mare de Déu del Consol con sus llamativas cúpulas azules.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Stuwmeer - Guedelest.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Embalse - Guedelest
+                    </h3>
+                    <p>
+                        El embalse de Guadalest es un hermoso oasis de color turquesa rodeado de imponentes montañas. Este sereno lago ofrece un espectacular contraste con el encanto histórico del cercano pueblo y castillo de Guadalest.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Watervallen - Algar.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Cascadas - Algar
+                    </h3>
+                    <p>
+                        Visite las cascadas de Algar. Este oasis natural ofrece «piscinas» naturales cristalinas, vegetación exuberante y cascadas refrescantes, perfectas para un día de baño y relax en la naturaleza.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Forat De Bernia.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Forat De Bernia
+                    </h3>
+                    <p>
+                        El Forat de Bernia es una legendaria ruta de senderismo que lleva a los aventureros en un estimulante viaje a través del esplendor natural de la Costa Blanca. Esta desafiante ruta ofrece impresionantes vistas a la montaña y al mar mientras navegas a través de antiguos túneles y a lo largo de empinados senderos.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="section grey">
-    <div class="row animate">
-        <div class="col">
-            <h2>
-                Activiteit 2
-            </h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vero facilis porro earum magni iusto molestias voluptatum totam harum facere.
-            </p>
-            <a href="" class="btn" target="_blank">
-                Meer informatie
-            </a>
-        </div>
-        <div class="col">
-            <img src="/home/img/placeholder-img.jpg" alt="">
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="row animate">
-        <div class="col">
-            <img src="/home/img/placeholder-img.jpg" alt="">
-        </div>
-        <div class="col">
-            <h2>
-                Activiteit 3
-            </h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vero facilis porro earum magni iusto molestias voluptatum totam harum facere.
-            </p>
-            <a href="" class="btn" target="_blank">
-                Meer informatie
-            </a>
+    <div class="row flex-col center animate">
+        <h2>
+            Bares y restaurantes
+        </h2>
+        <div class="wrapper activities-wrapper" id="bars">
+            <div class="item">
+                <img src="/activiteiten/img/Saen - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Saen - Moraira
+                    </h3>
+                    <p>
+                        Restaurante SAEN en Moraira es un lugar sencillo y sin pretensiones donde disfrutar de paellas, pescados frescos, carnes y verduras de temporada, todo con un toque personal. (La cocina tiene un toque mediterráneo, perfecto para los amantes de los sabores auténticos).
+                    </p>
+                    <a href="https://www.facebook.com/seanrestaurante" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Gastrobar.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Gastrobar 21 - Moraira
+                    </h3>
+                    <p>
+                        Gastrobar 21 en Moraira es un lugar de moda donde se puede disfrutar de deliciosas tapas y platos en un ambiente relajado.
+                    </p>
+                    <a href="https://www.gastrobar21.com/en/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Dos Toros.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Dos Toros - Moraira
+                    </h3>
+                    <p>
+                        Descubra el Restaurante Dos Toros, el punto de encuentro mediterráneo en Benissa. Déjese encantar por las impresionantes vistas del peñón de Ifach, el golfo y el mar azul.
+                    </p>
+                    <a href="https://dostoros.es/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Algas - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Algas - Moraira
+                    </h3>
+                    <p>
+                        Algas en Moraira es un chiringuito de moda donde podrás disfrutar de un delicioso desayuno/almuerzo junto al mar o disfrutar de tapas y cócteles por la noche.
+                    </p>
+                    <a href="https://www.algasmoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/El Chamizo - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        El Chamizo - Moraira
+                    </h3>
+                    <p>
+                        El Chamizo es un restaurante español situado en la bahía de Moraira, justo al lado del mar. Disfrute de la hermosa ubicación y deguste las deliciosas paellas, ideales para los amantes del pescado.
+                    </p>
+                    <a href="http://www.elchamizomoraira.com/web/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Casa Toni - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Casa Toni - Moraira
+                    </h3>
+                    <p>
+                        Casa Toni en Moraira ofrece una sofisticada cocina mediterránea centrada en ingredientes frescos de temporada de primera calidad, llenos de sabor y sensaciones.
+                    </p>
+                    <a href="https://restaurantecasatoni.es/en/home/ " target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/The Food Bar - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        The Food Bar - Moraira
+                    </h3>
+                    <p>
+                        The Food Bar es conocido por una combinación de excelente servicio y deliciosa comida, todo servido en un lugar impresionante con vistas al mar.
+                    </p>
+                    <a href="https://thefoodbarmoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/La Cabana Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Bar La Cabana Moraira
+                    </h3>
+                    <p>
+                        Bar La Cabana en Moraira ofrece todo lo que esperas de un club de playa y bar de cócteles. Disfruta de cócteles deliciosamente refrescantes e innovadores, fantásticos platos tailandeses y tapas españolas.
+                    </p>
+                    <a href="https://www.barlacabanamoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Saga - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Saga Moraira
+                    </h3>
+                    <p>
+                        Saga es un hermoso lugar junto al mar donde se puede disfrutar de deliciosos cócteles y tapas en el bar. Saga también ofrece una selección de vinos finos y platos refinados.
+                    </p>
+                    <a href="https://www.sagamoraira.es/nl/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Vespaz - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Vespaz - Moraira
+                    </h3>
+                    <p>
+                        Vespaz en el centro de Moraira es el lugar ideal para los amantes de la cocina italiana, con deliciosas pizzas y pastas. Disfrute de las hermosas vistas de la playa en la terraza.
+                    </p>
+                    <a href="http://restaurantevespaz.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Amantes - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Amantes - Moraira
+                    </h3>
+                    <p>
+                        Amantes le da la bienvenida con una hermosa ubicación junto al mar y sirve deliciosos platos mediterráneos y españoles preparados con ingredientes locales. Disfrute del ambiente acogedor mientras cena con vistas al mar Mediterráneo.
+                    </p>
+                    <a href="https://amantesdemoraira.com/en/amantes-de-moraira-restaurant-english/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Samar - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Samar - Moraira
+                    </h3>
+                    <p>
+                        Situado junto al puerto deportivo, Samar ofrece una oferta gastronómica que combina los sabores tradicionales de la cocina mediterránea con matices de la cocina japonesa y tailandesa.
+                    </p>
+                    <a href="https://www.samarmoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Ca La Iaia - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Ca La Iaia - Moraira
+                    </h3>
+                    <p>
+                        Ca La Iaia en Moraira es un restaurante tradicional español, de ubicación tranquila, donde podrá disfrutar de deliciosos platos mediterráneos y una amplia selección de vinos.
+                    </p>
+                    <a href="https://www.calaiaia.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Bites & Bubbles - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Bites & Bubbles - Moraira
+                    </h3>
+                    <p>
+                        Bites & Bubbles en el centro de Moraira es el lugar ideal para desayunar, comer o tapear, ya sea en su soleada terraza o en su acogedor interior. También ofrecen la opción de llevar platos para llevar (take-away), perfecto para un picnic o una comida en casa.
+                    </p>
+                    <a href="https://bitesandbubbels.com/nl/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Club Nautico – Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Club Nautico - Moraira
+                    </h3>
+                    <p>
+                        Club Náutico está situado en el puerto deportivo, con impresionantes vistas de los barcos, donde se puede disfrutar de buena comida en el restaurante mediterráneo. Disfrute también de la acogedora terraza en la azotea.
+                    </p>
+                    <a href="http://cnmoraira.com/restaurante/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Moodz – Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Moodz - Moraira
+                    </h3>
+                    <p>
+                        Moodz en Moraira es un bar acogedor y pequeño, perfectamente situado en el centro en el puerto deportivo. Ideal para un café relajante o un aperitivo acogedor.
+                    </p>
+                    <a href="https://www.facebook.com/p/Moodz-bar-Moraira-100083086552816/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Saxo - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Saxo - Moraira
+                    </h3>
+                    <p>
+                        Saxo es el hogar de la música en vivo y el entretenimiento en Moraira. Disfruta de la mejor música en directo de la Costa Blanca y relájate con acogedoras bebidas en el Chill Out Garden.
+                    </p>
+                    <a href="http://www.saxomoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Mesa - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Mesa - Moraira
+                    </h3>
+                    <p>
+                        Mesa ofrece un ambiente encantador para disfrutar, que consta de dos partes: una zona de salón relajado donde se puede disfrutar de un buen menú de bocados y tapas, y la terraza interior y exterior con un menú sorprendente.
+                    </p>
+                    <a href="https://www.mesamoraira.com/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Los Limoneros - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Los Limoneros - Moraira
+                    </h3>
+                    <p>
+                        En Los Limoneros, descubra una experiencia culinaria desde un lujoso desayuno hasta deliciosas tapas y platos para el almuerzo y la cena, todos preparados con ingredientes frescos de la zona. Disfrute de un vino maridado con su comida, también perfecto para compartir.
+                    </p>
+                    <a href="https://loslimoneros.com/nl/" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/activiteiten/img/Bar Billy’s - Moraira.jpg" alt="">
+                <div class="content">
+                    <h3>
+                        Bar Billy's - Moraira
+                    </h3>
+                    <p>
+                        Bar Billy's le da la bienvenida con un ambiente acogedor y un menú variado lleno de deliciosas opciones de desayuno y almuerzo. Los hospitalarios operadores te harán sentir como en casa.
+                    </p>
+                    <a href="https://www.facebook.com/cafebarbilly/?locale=nl_BE" target="_blank">
+                        Visitar sitio web
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

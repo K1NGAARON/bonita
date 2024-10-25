@@ -152,7 +152,7 @@ function createGallery(e) {
     const target = document.querySelector('.gallery-wrapper');
     const shuffledArray = content.sort((a, b) => 0.5 - Math.random());
     
-    const cards = shuffledArray.map(item => {
+    const cards = content.map(item => {
         if (!item.image || item.image == undefined) return '';
 
         return `
